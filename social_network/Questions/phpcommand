@@ -1,0 +1,61 @@
+mysql_error()
+-- error display kore
+
+
+mysql_connect()
+-- db connect kore
+
+mysql_select_db()
+-- kon db use korte hobe oita bole dey
+
+
+mysql_query()
+-- php er code mysql e execute kore 
+
+
+mysql_fetch_row()
+row[0], row[1]...[row means variable name]
+
+
+mysql_fetch_assoc()
+row['database field name']
+
+
+mysql_fetch_array()
+"working as both asssoc and row"
+problem is that it takes extra memory aS per say FOR 5 five fields it will take 10 number of memory.
+it has a solution like 
+
+mysql_fetch_array(variable name, MYSQL_NUM ) for using array number 
+mysql_fetch_array(variable name, MYSQL_ASSOC ) for using field name
+mysql_fetch_array(variable name, MYSQL_BOTH ) for using both
+
+
+mysql_fetch_object()
+row->field name
+
+
+using loop for showing all records:
+$count = mysql_num_rows() [count number of rows ]
+for($i=0; $i<$count ; $i++){
+$row= mysql_fetch_array();
+	echo "id :" .$row[0]. "<br>"
+}
+
+while:
+$i=0;
+while($<count)
+{
+	.....
+	.....
+	$i++;
+}
+
+2nd method:
+while($row=mysql_fetch_array())
+{
+	....
+}
+
+
+word-wrap: break-word; (break the line if it's overflow the div size)

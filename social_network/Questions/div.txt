@@ -1,0 +1,23 @@
+"prottekta <div> 16px niche theke start hoy kn jodi relative deya hoy?"
+
+"ekta div er position change korle tar nicher div tao change hoy na kn sathe sathe?"
+
+"absulate ba fixed e jinish ta choto kore ashe but relative e boro kore ashe kn?"
+
+"fixed e porsition change hoy na r absoulate e shob kichu ekdom shuru thekei shuru hoy eta ki shotti?"
+
+"div er size fixed kore deya jaay?"
+
+"float right,left jinish ta ki ashole?"
+
+relative thakle bhetorer content niye chinta korte hoy na.. absoulate thakle size niye extra kaj kora lagbe
+
+
+
+
+Put a pixel based image in AI and zoom to 900% and it will be blurry..
+Put a vector based object in PS and zoom to 900% and it will be sharp.
+That's the difference between vector based and pixel based graphics..
+
+
+ 

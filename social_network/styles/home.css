@@ -1,0 +1,87 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	}
+	
+.header{
+	position: relative;
+	height: 120px;
+	width: 100%;
+	background: #2F4F4F;
+	border-style: groove;
+	border-width: 5px;
+	border-color: grey;
+}
+.logo{
+	position: relative;
+	left:20px;
+	top: 30px;
+	color: white;
+	text-shadow: 3px 2px blue;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+ul li{
+	list-style-type: none;
+	padding: 10px;
+	position: relative;
+	top: 50px;
+	float: left;
+	display: block;
+	font-size: 17px;
+	border-right: 1px solid #bbb;
+	
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+
+}
+li:last-child {
+  border-right: none;
+}
+
+ul ul{
+	display: none;
+}
+ul li:hover> ul{
+	display: block;
+}
+ 
+.searchstyle input[type=text]{
+	
+}
+
+.post{
+	position: absolute;
+	top: 130px;
+	left: 270px;
+	width: 800px;
+}
+.post textarea{
+	position: absolute;
+	background: white;
+	top: 50px;
+	left:100px;
+	height: 120px;
+	width: 600px;
+	border-radius: 5px;
+}
+
+.post input{ 
+	
+	        position: absolute;
+			top: 200px;
+			left: 400PX;
+			height: 30px;
+			width: 100px;
+			border-style: solid;
+			border-radius: 5px;
+			border-color: #008080;
+			text-align: center;
+			cursor: pointer; 
+}

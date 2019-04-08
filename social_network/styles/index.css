@@ -1,0 +1,133 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.header{
+	position: relative;
+	height: 120px;
+	width: 100%;
+	background: #2F4F4F;
+	border-style: groove;
+	border-width: 5px;
+	border-color: grey;
+}
+.logo{
+	position: relative;
+	left:20px;
+	top: 30px;
+	color: white;
+	text-shadow: 3px 2px blue;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.login_form{
+	position: relative;
+	float: right;
+	color: white;
+
+}
+.useremail{
+	height: 30px;
+	width: 250px;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+}
+.userpass{
+	height: 30px;
+	width: 250px;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+}
+.userlogin{
+	height: 30px;
+	width: 150px;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+}
+.userlogin:hover{
+	background: green;
+	color: white;
+}
+.fpass{
+	text-decoration: none; 
+	color: #ffffff;
+}
+
+.fpass:hover{
+	
+	color: black;
+}
+.usersignup
+{
+	position: relative;
+	float: right;
+	top: -350px;
+	right: 100px;
+}
+
+.signup_form input{
+	position: relative;
+	height: 30px;
+	width: 300px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #008080;
+	text-align: center;
+}
+.signup_form input[type=text]:focus{
+  box-shadow: 0 0 0 2px #008080;
+  border-radius: 5px;
+}
+.signup_form input[type=email]:focus{
+  box-shadow: 0 0 0 2px #008080;
+  border-radius: 5px;
+}
+.signup_form input[type=password]:focus{
+  box-shadow: 0 0 0 2px #008080;
+  border-radius: 5px;
+}
+
+.signup_form select{
+
+	position: relative;
+	height: 40px;
+	width: 300px;
+	border-style: solid;
+	border-radius: 5px;
+	background: #008080;
+	color: white;
+	text-align: center;
+
+}
+.signup_form select:focus{
+  box-shadow: 0 0 0 2px #008080;
+  border-radius: 5px;
+
+}
+.img{
+	position: relative;
+	top: 80px;
+	left: 80px;
+}
+.buttonsignup{
+	position: relative;
+	height: 30px;
+	width: 150px;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	left: 70px;
+	top: 20px;
+}
+.buttonsignup:hover{
+	background: green;
+	color: white;
+}
+
+
